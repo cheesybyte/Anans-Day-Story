@@ -194,9 +194,9 @@ const gameNodes = {
     },
     
     // 结局4
-    '结局4': {
+    '结局4（大结局）': {
         text: '如果是和安安的话，只是这样过简单的一天也很好。',
-        endingTitle: '结局4', // 新增结局提示
+        endingTitle: '结局4（大结局）', // 新增结局提示
         media: null,
         options: [{ text: '从头开始，看看这一天还会有什么事发生？', nextNode: '网页首页', isEnding: true }, { text: '无', nextNode: null }, { text: '无', nextNode: null }]
     },
@@ -444,4 +444,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('content-area').style.flexDirection = 'column';
     
     displayNode(currentNodeKey);
+
 });
