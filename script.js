@@ -162,7 +162,7 @@ const gameNodes = {
         media: null, // 移除节点自带媒体
         options: [
             // 修正后的选项：图片在选项内部
-            { text: '这样睡吧^o^', nextNode: '结局4', media: { type: 'image', src: '图片：111' } },
+            { text: '这样睡吧^o^', nextNode: '结局4（大结局）', media: { type: 'image', src: '图片：111' } },
             // 修正后的选项：图片在选项内部
             { text: '那样睡吧^3^', nextNode: '结局4（大结局）', media: { type: 'image', src: '图片：222' } },
             { text: '无', nextNode: null }
@@ -446,3 +446,4 @@ document.addEventListener('DOMContentLoaded', () => {
     displayNode(currentNodeKey);
 
 });
+
